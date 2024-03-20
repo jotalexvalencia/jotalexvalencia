@@ -1,0 +1,24 @@
+{
+  "name": "jotalexvalencia",
+  "version": "1.0.0",
+  "description": "jotalexvalencia README GitHub pofile",
+  "main": "index.js",
+  "scripts": {
+    "update-readme": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotalexvalencia/jotalexvalencia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jotalexvalencia/jotalexvalencia/issues"
+  },
+  "homepage": "https://github.com/jotalexvalencia/jotalexvalencia#readme",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

@@ -38,9 +38,9 @@
 
 - **Languages**:  
    
-   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="24px" height="24px">   
-   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="24px" height="24px">
-   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="24px" height="24px">
+   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">   
+   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
+   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
 
 
 
@@ -48,35 +48,35 @@
     
 - **Front-End Development**:
 
-   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="24px" height="24px">
-   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="24px" height="24px">
-   - <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="24px" height="24px">
+   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
+   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
+   - <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
 
 <br>
 
 - **Backend-End Development**:
 
-   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="24px" height="24px">   
+   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">   
 
 <br>
 
 - **Mobile-App Development**:
 
-   - <img src="https://reactnative.dev/img/header_logo.svg" width="24px" height="24px">   
+   - <img src="https://reactnative.dev/img/header_logo.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">   
 
 <br>
 
 - **Database**:
-	- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" width="24px" height="24px">
-	- <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="24px" height="24px"> 
- 	- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="24px" height="24px">
+	- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
+	- <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="%{{icon_size}}%" height="%{{icon_size}}%"> 
+ 	- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
     	
     
 <br>
 
 - **Framework**:
 
-   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="24px" height="24px">   
+   - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">   
 
 - **Development Tools**:
 
@@ -85,7 +85,7 @@
     ![Google](https://img.shields.io/badge/google-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)
     ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
     ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.HBJq0GwMyn3iqN1Gj5rQ1gHaHa%26pid%3DApi&f=1&ipt=25a55bcad3168abc895fd4cde432bec8115f171ef1e4668e70a3c4b9a54c7279&ipo=images" width="24px" height="24px">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.HBJq0GwMyn3iqN1Gj5rQ1gHaHa%26pid%3DApi&f=1&ipt=25a55bcad3168abc895fd4cde432bec8115f171ef1e4668e70a3c4b9a54c7279&ipo=images" width="%{{icon_size}}%" height="%{{icon_size}}%">
 
 <br>
 
