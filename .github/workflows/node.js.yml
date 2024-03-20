@@ -23,5 +23,5 @@ jobs:
           git config user.email jorgealexandervalencia@gmail.com
           git add README.md
           git commit -m "[bot] Update README with latest info and icons and images"
-          git push 
+          git push origin main
       
