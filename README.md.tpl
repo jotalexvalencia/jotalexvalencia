@@ -2,7 +2,7 @@
 
   ![image](https://github.com/jotalexvalencia/jotalexvalencia/assets/10563766/ecf83ee1-150c-44a1-8d6a-a2658e80c9b9)
 
-
+ ![motivation](https://github.com/jotalexvalencia/jotalexvalencia/blob/main/motivation.gif)
    
 <!--  -->
 <p align="center">
@@ -86,7 +86,7 @@
     ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.HBJq0GwMyn3iqN1Gj5rQ1gHaHa%26pid%3DApi&f=1&ipt=25a55bcad3168abc895fd4cde432bec8115f171ef1e4668e70a3c4b9a54c7279&ipo=images" width="%{{icon_size}}%" height="%{{icon_size}}%">
     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="%{{icon_size}}%" height="%{{icon_size}}%">
-
+   
 <br>
 
 
