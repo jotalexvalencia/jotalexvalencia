@@ -26,7 +26,8 @@
 - Currently learning React Native, React, Nest.js by myself
 - Portfolio [link](https://lnkd.in/eup_QB_Z)
 - I am currently open for new job opportunity, this is [my resume](https://www.linkedin.com/in/jorge-alexander-valencia-valencia-42346417/overlay/1710859567237/single-media-viewer/?profileId=ACoAAANy41sBWI7VULFVD5Jr4cifeeOOtHeHhxs)
-
+- my articles about react native developement in my [blog](https://jorgealexandervalencia.hashnode.dev/)
+   -latest article: %{{latest-article}}%
 <br><br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
@@ -89,7 +90,7 @@
    
 <br>
 
-
+[![jotalexvalencia's GitHub stats](https://github-readme-stats.vercel.app/api?username=jotalexvalencia)](https://github.com/anuraghazra/github-readme-stats))
 
 
 </p>
