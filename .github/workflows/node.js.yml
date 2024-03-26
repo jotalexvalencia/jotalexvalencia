@@ -24,6 +24,10 @@ jobs:
           node-version: '16.x'
       - run: npm install
       - run: npm run update-readme
+      - name: Fetch and Pull latest changes
+        run: |
+          git fetch origin
+          git pull origin main --rebase
       - name: Add safe directory exception
         run: git config --global --add safe.directory /github/workspace
       - run: |
