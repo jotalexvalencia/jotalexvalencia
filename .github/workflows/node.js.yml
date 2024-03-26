@@ -2,7 +2,7 @@ name: Node.js CI
 
 on:
  schedule:
-    - cron: "44 0 * * *"
+    - cron: "49 * * * *"
 
 permissions:
  actions: write
