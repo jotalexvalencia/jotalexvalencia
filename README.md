@@ -90,7 +90,7 @@
    
 <br>
 
-[![jotalexvalencia's GitHub stats](https://github-readme-stats.vercel.app/api?username=jotalexvalencia)](https://github.com/anuraghazra/github-readme-stats))
+[![jotalexvalencia's GitHub stats](https://github-readme-stats.vercel.app/api?username=jotalexvalencia)](https://github.com/anuraghazra/github-readme-stats)
 
 
 </p>
