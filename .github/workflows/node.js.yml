@@ -24,13 +24,17 @@ jobs:
         with:
           node-version: '16.x'
       - run: npm install
-      - run: npm run update-readme
-      - name: Commit changes
-        run: |
+      - run: |
+          # Update last_post_date.json with the current date
+          echo "{\"last_post_date\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\"}" > last_post_date.json
+          # Commit the changes
           git config user.name jotalexvalencia
           git config user.email jorgealexandervalencia@gmail.com
-          git add README.md
-          git commit -m "Update README with latest blog post"
+          git add last_post_date.json
+          git commit -m "Update last_post_date.json with the latest article date"
+          # Push the changes to the remote repository
+          git push origin main
+      - run: npm run update-readme
       - name: Fetch and Pull latest changes
         run: |
           git fetch origin
