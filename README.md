@@ -24,10 +24,10 @@
 - Self-taught and passionate Front-end and Back-end Developer
 - Playing Chess in my spare time
 - Currently learning React Native, React, Nest.js by myself
-- Portfolio [link](https://lnkd.in/eup_QB_Z)
+- Portfolio [link](https://jorgealexandervalenciavalenciadev.notion.site/Ingeniero-de-Sistemas-Especialista-en-Desarrollo-del-Software-bb90f81d44d64bf5b205fb23a4d15b2f)
 - I am currently open for new job opportunity, this is [my resume](https://www.linkedin.com/in/jorge-alexander-valencia-valencia-42346417/overlay/1710859567237/single-media-viewer/?profileId=ACoAAANy41sBWI7VULFVD5Jr4cifeeOOtHeHhxs)
 - my articles about react native developement in my [blog](https://jorgealexandervalencia.hashnode.dev/)
-   -latest article: [shopsmart](https://jorgealexandervalencia.hashnode.dev/shopsmart)
+   -latest article: [#react-native Let's build a react native app with debugging in 1 shot | bgChange04](https://jorgealexandervalencia.hashnode.dev/react-native-lets-build-a-react-native-app-with-debugging-in-1-shot-bgchange04)
 <br><br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>

@@ -24,7 +24,7 @@
 - Self-taught and passionate Front-end and Back-end Developer
 - Playing Chess in my spare time
 - Currently learning React Native, React, Nest.js by myself
-- Portfolio [link](https://lnkd.in/eup_QB_Z)
+- Portfolio [link](https://jorgealexandervalenciavalenciadev.notion.site/Ingeniero-de-Sistemas-Especialista-en-Desarrollo-del-Software-bb90f81d44d64bf5b205fb23a4d15b2f)
 - I am currently open for new job opportunity, this is [my resume](https://www.linkedin.com/in/jorge-alexander-valencia-valencia-42346417/overlay/1710859567237/single-media-viewer/?profileId=ACoAAANy41sBWI7VULFVD5Jr4cifeeOOtHeHhxs)
 - my articles about react native developement in my [blog](https://jorgealexandervalencia.hashnode.dev/)
    -latest article: %{{latest-article}}%
