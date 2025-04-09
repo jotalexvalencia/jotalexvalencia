@@ -50,9 +50,6 @@
 - Built a music player with playlists and streaming using React Native.
 
 ## 🚀 GitHub Stats
-<div align="center">
-  <a href="https://github.com/jotalexvalencia">
-    <img src="https://github-readme-stats.vercel.app/api?username=jotalexvalencia&theme=synthwave&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Journey" alt="GitHub Stats"/>
-  </a>
-</div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jotalexvalencia&theme=synthwave&show_icons=true&hide_border=true&count_private=true)
+
 For more projects, visit my GitHub: [GitHub Projects](https://github.com/jotalexvalencia).
