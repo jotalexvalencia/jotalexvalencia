@@ -51,4 +51,5 @@
 
 ## 🚀 GitHub Stats
 [![ GitHub stats](https://github-readme-stats.vercel.app/api?username=jotalexvalencia&theme=radical&count_private=true&hide_rank=false&custom_title=My%20GitHub%20Journey)](https://github.com/jotalexvalencia)
+
 For more projects, visit my GitHub: [GitHub Projects](https://github.com/jotalexvalencia).
