@@ -1,0 +1,42 @@
+# Este archivo configura un flujo de trabajo automatizado usando GitHub Actions para tu repositorio.
+name: Node.js CI # Nombre del flujo de trabajo (por ejemplo, "Node.js Continuous Integration")
+
+on: # Eventos que activan el flujo
+  schedule:
+    - cron: "0 0 1 * *" # Ejecutará el flujo el primer día de cada mes a la medianoche (00:00 horas).
+  workflow_dispatch: # Permite que el flujo se ejecute manualmente desde la interfaz de GitHub Actions.
+
+permissions: # Define los permisos necesarios para el flujo.
+  actions: write
+  contents: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+
+jobs: # Bloque principal que define las tareas que se ejecutarán en el flujo.
+  build: # Nombre de la tarea
+    runs-on: windows-latest # Especifica que las tareas se ejecutarán en un sistema operativo Windows.
+
+    steps: # Lista de pasos que forman parte de esta tarea.
+      - uses: actions/checkout@v3 # Clona el repositorio y descarga el código fuente.
+      - uses: actions/setup-node@v3 # Configura el entorno de Node.js.
+        with:
+          node-version: '16.x' # Indica la versión específica de Node.js que se instalará.
+      - run: npm install # Instala las dependencias necesarias del proyecto.
+      - name: Fetch and Pull latest changes # Paso para obtener cambios recientes del repositorio.
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+      - name: Add safe directory exception # Soluciona problemas de seguridad relacionados con GitHub Actions.
+        run: git config --global --add safe.directory /github/workspace
+      - run: | # Actualiza el archivo README con la información más reciente.
+          git config user.name jotalexvalencia # Configura el nombre de usuario de Git.
+          git config user.email jorgealexandervalencia@gmail.com # Configura el correo electrónico del usuario.
+          git remote add origin_with_token https://${{ secrets.GH_PAT }}@github.com/jotalexvalencia/jotalexvalencia.git # Agrega el token secreto para autenticación.
+          git fetch origin
+          git reset --hard origin/main
+          git add README.md
+          git commit -m "[bot] Update README with latest information"
+          git push origin_with_token # Publica los cambios en el repositorio.
