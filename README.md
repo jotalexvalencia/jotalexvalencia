@@ -4,10 +4,6 @@
   <img src="https://github.com/jotalexvalencia/jotalexvalencia/blob/main/no-bad-days.png" alt="No Bad Days" style="max-width: 100%; height: auto;">
 </p>
 
-<p align="center">
-  <img src="https://github.com/jotalexvalencia/jotalexvalencia/blob/main/motivation.gif" alt="Motivation">
-</p>
-
 ## ✨ About Me
 - Full-Stack Developer with over 9 years of experience in IT.
 - Certified in Scrum, Requirement Engineering, and English (B2 Upper Intermediate).
