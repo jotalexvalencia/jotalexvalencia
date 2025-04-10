@@ -1,6 +1,7 @@
 <h1 align="center"><b>Hello, I'm Jorge Alexander Valencia</b></h1>
+
 <p align="center">
-  <img src="https://github.com/jotalexvalencia/jotalexvalencia/assets/10563766/ecf83ee1-150c-44a1-8d6a-a2658e80c9b9" alt="Logo">
+  <img src="https://github.com/jotalexvalencia/jotalexvalencia/blob/main/no-bad-days.png" alt="No Bad Days" style="max-width: 100%; height: auto;">
 </p>
 
 <p align="center">
