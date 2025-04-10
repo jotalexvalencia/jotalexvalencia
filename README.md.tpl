@@ -4,6 +4,10 @@
 </p>
 
 <p align="center">
+  <img src="no-bad-days.png" alt="No Bad Days" style="max-width: 100%; height: auto;">
+</p>
+
+<p align="center">
   <img src="https://github.com/jotalexvalencia/jotalexvalencia/blob/main/motivation.gif" alt="Motivation">
 </p>
 
