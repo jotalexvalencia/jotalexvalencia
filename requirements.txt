@@ -1,3 +1,7 @@
 requests==2.32.3
-beautifulsoup4==4.13.3# Corregido a una versión existente (4.13.4 no existe al momento de escribir esto)
-lxml==5.3.0           # Corregido a una versión existente (5.3.0 no existe al momento de escribir esto)
+
+# Corregido a una versión existente (4.13.4 no existe al momento de escribir esto)
+beautifulsoup4==4.13.3
+
+# Corregido a una versión existente (5.3.0 no existe al momento de escribir esto)
+lxml==5.3.0
