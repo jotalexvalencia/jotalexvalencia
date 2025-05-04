@@ -11,7 +11,7 @@
 - Currently mastering React Native, Angular, and cloud-based technologies.
 - Portfolio: [Check my Portfolio](https://jorgealexandervalenciavalenciadev.notion.site/Ingeniero-de-Sistemas-Especialista-en-Desarrollo-del-Software-bb90f81d44d64bf5b205fb23a4d15b2f)
 - Blog: [My Articles](https://jorgealexandervalencia.hashnode.dev/) on modern development technologies.
-   - Latest Article: [Check out my portfolio and latest projects!](https://jorgealexandervalenciavalenciadev.notion.site/)
+   - Latest Article: %{{latest-article}}%
 
 ---
 
@@ -46,7 +46,11 @@
 ### Music App - Spotify Mini Clone
 - Built a music player with playlists and streaming using React Native.
 
-## 🚀 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jotalexvalencia&theme=synthwave&show_icons=true&hide_border=true&count_private=true)
+## 📝 Latest Articles
 
-For more projects, visit my GitHub: [GitHub Projects](https://github.com/jotalexvalencia).
+- [# Data Cleaning Process Modeling with BPMN and BizAgi](https://dev.to/aljutupapa/-data-cleaning-process-modeling-with-bpmn-and-bizagi-2f78)
+- [Modelando Procesos de Limpieza de Datos con BPMN y BizAgi](https://dev.to/aljutupapa/modelando-procesos-de-limpieza-de-datos-con-bpmn-y-bizagi-2fpa)
+- [# Data Cleaning Process Modeling with BPMN and BizAgi](https://medium.com/@jorgealexandervalencia/data-cleaning-process-modeling-with-bpmn-and-bizagi-10d06f818b85?source=rss-5de9c2b90fa5------2)
+- [Modelando Procesos de Limpieza de Datos con BPMN y BizAgi](https://medium.com/@jorgealexandervalencia/modelando-procesos-de-limpieza-de-datos-con-bpmn-y-bizagi-a7ddb560096e?source=rss-5de9c2b90fa5------2)
+
+<!-- LATEST_ARTICLES_END -->

@@ -1,42 +1,91 @@
-# Este archivo configura un flujo de trabajo automatizado usando GitHub Actions para tu repositorio.
-name: Node.js CI # Nombre del flujo de trabajo (por ejemplo, "Node.js Continuous Integration")
+# Este es un flujo de trabajo (workflow) de GitHub Actions.
+# Se ejecuta automáticamente o manualmente para actualizar el README.md con artículos recientes.
 
-on: # Eventos que activan el flujo
+# Nombre del flujo de trabajo
+name: Update README with Articles
+
+# Cuándo se ejecutará:
+on:
+  # Se ejecuta diariamente a medianoche UTC
   schedule:
-    - cron: "0 0 1 * *" # Ejecutará el flujo el primer día de cada mes a la medianoche (00:00 horas).
-  workflow_dispatch: # Permite que el flujo se ejecute manualmente desde la interfaz de GitHub Actions.
+    - cron: "0 0 * * *"  # Formato cron: minuto hora día mes día_de_la_semana
 
-permissions: # Define los permisos necesarios para el flujo.
-  actions: write
+  # También permite ejecutarlo manualmente desde la pestaña "Actions" en GitHub
+  workflow_dispatch:
+
+# Permisos necesarios
+permissions:
+  # Solo necesita permiso para escribir contenido en el repositorio
   contents: write
-  packages: write
-  pull-requests: write
-  repository-projects: write
-  security-events: write
-  statuses: write
 
-jobs: # Bloque principal que define las tareas que se ejecutarán en el flujo.
-  build: # Nombre de la tarea
-    runs-on: windows-latest # Especifica que las tareas se ejecutarán en un sistema operativo Windows.
+# Definición de trabajos (jobs)
+jobs:
+  # Trabajo principal: update_readme_job
+  update_readme_job:
+    # Sistema donde se ejecutará: Ubuntu más reciente
+    runs-on: ubuntu-latest
 
-    steps: # Lista de pasos que forman parte de esta tarea.
-      - uses: actions/checkout@v3 # Clona el repositorio y descarga el código fuente.
-      - uses: actions/setup-node@v3 # Configura el entorno de Node.js.
+    # Pasos que realizará el trabajo
+    steps:
+      # Paso 1: Descargar código del repositorio
+      - name: Check out repository code
+        uses: actions/checkout@v4  # Acción oficial de GitHub para clonar el repo
+
+      # Paso 2: Configurar entorno de Python
+      - name: Set up Python environment
+        uses: actions/setup-python@v5  # Versión recomendada de la acción
         with:
-          node-version: '16.x' # Indica la versión específica de Node.js que se instalará.
-      - run: npm install # Instala las dependencias necesarias del proyecto.
-      - name: Fetch and Pull latest changes # Paso para obtener cambios recientes del repositorio.
+          python-version: '3.x'  # Usamos la última versión estable de Python
+
+      # Paso 3: Instalar dependencias de Python
+      - name: Install Python dependencies
         run: |
-          git fetch origin
-          git reset --hard origin/main
-      - name: Add safe directory exception # Soluciona problemas de seguridad relacionados con GitHub Actions.
-        run: git config --global --add safe.directory /github/workspace
-      - run: | # Actualiza el archivo README con la información más reciente.
-          git config user.name jotalexvalencia # Configura el nombre de usuario de Git.
-          git config user.email jorgealexandervalencia@gmail.com # Configura el correo electrónico del usuario.
-          git remote add origin_with_token https://${{ secrets.GH_PAT }}@github.com/jotalexvalencia/jotalexvalencia.git # Agrega el token secreto para autenticación.
-          git fetch origin
-          git reset --hard origin/main
-          git add README.md
-          git commit -m "[bot] Update README with latest information"
-          git push origin_with_token # Publica los cambios en el repositorio.
+          # Actualiza pip (gestor de paquetes de Python) a la última versión
+          python -m pip install --upgrade pip
+
+          # Instala las bibliotecas listadas en requirements.txt
+          # Asegúrate de tener este archivo en la raíz de tu proyecto
+          pip install -r requirements.txt
+
+      # Paso 4: Ejecutar el script Python que actualiza el README.md
+      - name: Run script to update README.md
+        run: |
+          # Llama al script Python que obtiene artículos y modifica el README
+          python update_readme.py
+
+      # Paso 5: Hacer commit y push si hay cambios en README.md
+      - name: Commit and push changes if README.md was modified
+        shell: bash  # Usamos bash porque estamos en un sistema Linux (Ubuntu)
+        run: |
+          # Configura Git con tus datos personales
+          git config --global user.name jotalexvalencia
+          git config --global user.email jorgealexandervalencia@gmail.com
+
+          # Verifica si hay cambios en README.md
+          if [[ -z $(git status --porcelain README.md) ]]; then
+            echo "No changes detected in README.md. Nothing to commit."
+          else
+            echo "Changes detected in README.md. Proceeding with commit and push..."
+
+            # Prepara los cambios para hacer commit
+            git add README.md
+
+            # Crea un commit con los cambios
+            git commit -m "chore: [bot] Update articles in README.md"
+
+            # Configura la URL remota del repositorio con token de seguridad
+            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/jotalexvalencia/jotalexvalencia.git
+
+            # Sube los cambios a tu rama (ej. main o master)
+            git push origin HEAD:${{ github.ref_name }}
+
+            # Confirma que los cambios se subieron exitosamente
+            echo "README.md committed and pushed successfully."
+          fi
+
+      # Paso Opcional: Notificar si falla el flujo
+      - name: Notify on failure
+        if: failure()  # Este paso solo ocurre si otro paso anterior falló
+        run: |
+          echo "El flujo de trabajo falló al actualizar el README."
+          echo "Revisa los logs para ver qué salió mal."
