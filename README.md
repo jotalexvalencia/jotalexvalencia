@@ -9,7 +9,7 @@
 - Certified in Scrum, Requirement Engineering, and English (B2 Upper Intermediate).
 - Passionate about web and mobile development.
 - Currently mastering React Native, Angular, and cloud-based technologies.
-- Portfolio: [Check my Portfolio](https://jorgealexandervalenciavalenciadev.notion.site/Ingeniero-de-Sistemas-Especialista-en-Desarrollo-del-Software-bb90f81d44d64bf5b205fb23a4d15b2f)
+- Portfolio: [Check my Portfolio](https://alexandervalencia-dev.netlify.app)
 - Blog: [My Articles](https://jorgealexandervalencia.hashnode.dev/) on modern development technologies.
    - Latest Article: %{{latest-article}}%
 

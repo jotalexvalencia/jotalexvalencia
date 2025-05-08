@@ -6,9 +6,9 @@ name: Update README with Articles
 
 # Cuándo se ejecutará:
 on:
-  # Se ejecuta diariamente a medianoche UTC
+  # Se ejecuta semanalmente los lunes a medianoche UTC
   schedule:
-    - cron: "0 0 * * *"  # Formato cron: minuto hora día mes día_de_la_semana
+    - cron: "0 0 * * 1"  # Formato cron: minuto hora día_del_mes mes día_de_la_semana (0=Domingo, 1=Lunes)
 
   # También permite ejecutarlo manualmente desde la pestaña "Actions" en GitHub
   workflow_dispatch:
