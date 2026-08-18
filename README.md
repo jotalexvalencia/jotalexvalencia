@@ -105,4 +105,16 @@ My professional focus combines deep technical capabilities with business insight
   />
   <img src="https://github-readme-stats-fast.vercel.app/api?username=jotalexvalencia&show_icons=true" />
 </picture>
-<img src="https://your-vercel-app.vercel.app/api?username=jotalexvalencia&show_icons=true&count_private=true" /> <img src="https://your-vercel-app.vercel.app/api/top-langs?username=jotalexvalencia&layout=compact&theme=algolia&count_private=true"/>
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=jotalexvalencia&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=jotalexvalencia&show_icons=true&theme=light"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=jotalexvalencia&show_icons=true&theme=light" />
+</picture>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotalexvalencia&layout=compact&theme=dark&count_private=true" />
