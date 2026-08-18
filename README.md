@@ -95,6 +95,6 @@ My professional focus combines deep technical capabilities with business insight
 ## 🚀 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jotalexvalencia&theme=radical&show_icons=true&count_private=true&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jotalexvalencia&theme=radical&layout=compact&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jotalexvalencia&theme=radical&show_icons=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jotalexvalencia&theme=radical&layout=compact" alt="Top Languages" />
 </p>
