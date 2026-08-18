@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/jotalexvalencia/jotalexvalencia/assets/10563766/ecf83ee1-150c-44a1-8d6a-a2658e80c9b9" alt="Logo" width="120">
+  <img src="./avatar.jpg" alt="Logo" width="120">
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/jotalexvalencia/jotalexvalencia/blob/main/motivation.gif" alt="Motivation">
+  <img src="./banner.jpg" alt="Coding Desk Banner" width="100%">
 </p>
 
 ---
