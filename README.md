@@ -105,3 +105,4 @@ My professional focus combines deep technical capabilities with business insight
   />
   <img src="https://github-readme-stats-fast.vercel.app/api?username=jotalexvalencia&show_icons=true" />
 </picture>
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jotalexvalencia)](https://github.com/jotalexvalencia/github-readme-stats)
