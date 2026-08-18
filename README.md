@@ -30,7 +30,7 @@
 
 ## 🚀 About Me
 
-I am a **Software Engineer** and **Programmer Analyst** with **over 9 years of experience** in the IT industry. I specialize in designing and building enterprise web applications, designing functional architectures, developing robust REST APIs, and implementing CI/CD automation pipelines.
+I am a **Software Engineer** and **Programmer Analyst** with **7+ years of experience in enterprise software development.** in the IT industry. I specialize in designing and building enterprise web applications, designing functional architectures, developing robust REST APIs, and implementing CI/CD automation pipelines.
 
 My professional focus combines deep technical capabilities with business insight to translate complex functional requirements into maintainable, scalable, and high-quality software. 
 
